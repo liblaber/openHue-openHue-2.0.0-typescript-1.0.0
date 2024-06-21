@@ -22,13 +22,13 @@ See [openhue/openhue-api](https://github.com/openhue/openhue-api)
 - [Models](#models)
 - [License](#license)
 
-# Setup & Configuration
+## Setup & Configuration
 
-## Supported Language Versions
+### Supported Language Versions
 
 This SDK is compatible with the following versions: `TypeScript >= 4.8.4`
 
-## Installation
+### Installation
 
 To get started with the SDK, we recommend installing using `npm`:
 
@@ -36,13 +36,13 @@ To get started with the SDK, we recommend installing using `npm`:
 npm install openhue
 ```
 
-# Authentication
+## Authentication
 
-## API Key Authentication
+### API Key Authentication
 
 The OpenHue API uses API keys as a form of authentication. An API key is a unique identifier used to authenticate a user, developer, or a program that is calling the API.
 
-### Setting the API key
+#### Setting the API key
 
 When you initialize the SDK, you can set the API key as follows:
 
@@ -57,7 +57,7 @@ const sdk = new OpenHue();
 sdk.apiKey = "YOUR_API_KEY";
 ```
 
-# Services
+## Services
 
 The SDK provides various services to interact with the API.
 
@@ -84,7 +84,7 @@ The SDK provides various services to interact with the API.
 </details>
 <br/>
 
-# Models
+## Models
 
 The SDK includes several models that represent the data structures used in API requests and responses. These models help in organizing and managing the data efficiently.
 
@@ -277,7 +277,7 @@ The SDK includes several models that represent the data structures used in API r
 </details>
 <br/>
 
-# License
+## License
 
 This SDK is licensed under the MIT License.
 
