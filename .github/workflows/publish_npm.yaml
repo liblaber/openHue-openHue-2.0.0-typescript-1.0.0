@@ -2,8 +2,8 @@ name: Publish to npm
 
 on:
   push:
-    branches:
-      - 'main'  # This triggers the action on version tags
+    tags:
+      - 'v*.*.*'  # This triggers the action on version tags
 
 jobs:
   publish:
